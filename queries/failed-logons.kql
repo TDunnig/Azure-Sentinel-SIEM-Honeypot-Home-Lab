@@ -1,0 +1,9 @@
+SecurityEvent
+| where EventID == 4625
+| sort by TimeGenerated desc
+
+// Pull failed login events
+SecurityEvent
+| where EventID == 4625
+// Sort by most recent
+| sort by TimeGenerated desc
