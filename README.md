@@ -8,12 +8,14 @@ Welcome to the Azure Sentinel Honeypot Homelab walkthrough! In this guide, we wi
 # Learning Objectives
 
 Setting up and rolling out various Azure components including: 
-Virtual Machines (VMs), Log Analytics Workspaces, and Azure Sentinel
-Competence and experience with Microsoft Azure Sentinel, a SIEM (Security Information and Event Management) Log Management Tool
-Third-party API Calls
-Using KQL to query logs
-Learn how to read the Security Event Logs in Windows
-Utilize Workbooks (World Map) to make an interactive map showing attack statistics
+- Virtual Machines (VMs)
+- Log Analytics Workspaces
+- Azure Sentinel
+- Competence and experience with Microsoft Azure Sentinel, a SIEM (Security Information and Event Management) Log Management Tool
+- Third-party API Calls
+- Using KQL to query logs
+- Learn how to read the Security Event Logs in Windows
+- Utilize Workbooks (World Map) to make an interactive map showing attack statistics
 
 # Technologies + Requirements
 
