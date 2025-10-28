@@ -30,6 +30,7 @@ Setting up and rolling out various Azure components including:
 - Customized Powershell Script authored by Josh Madakor
 
 # Overview:
+![overview](screenshots/overview.png) 
 
 ## Table of Contents
 - [Architecture](docs/architecture.md)
