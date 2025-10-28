@@ -57,7 +57,7 @@ Setting up and rolling out various Azure components including:
 # Step 1: Create a Microsoft Azure Account: [Visit Azure](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=azurefreeaccount)
 Microsoft offers $200 in Azure credit for 30 days when you initially sign up. Now as of 2025 I still had to put a card on file for the VM and zone I was using. I do not know if that will change in the future. I was still offered the $200 free. It has been about 3 weeks and so far I believe I have used maybe 20 dollars of the free money working 3+ hours at a time. You save money by having auto-shutdown turned on, but I just manually shut it down because it would shutdown my lab when I was working late at night so turn on auto-shutdown or leave it off based on the time you work best.
 
-![opena](
+![opena](screenshots/open.png)
 
 
 # Step 2: Setup our honey pot virtual machine
