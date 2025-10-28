@@ -62,7 +62,7 @@ Microsoft offers $200 in Azure credit for 30 days when you initially sign up. No
 
 # Step 2: Setup our honey pot virtual machine
 Vulnerable Windows VM
-[virtual](screenshots/vir.png)
+![virtual](screenshots/vir.png)
 
 # Basics
 After signing up, click "Go to the Azure Portal" , or visit portal.azure.com
@@ -91,4 +91,4 @@ Public inbound ports -> Allow selected ports: RDP (3389)
 # Licensing
 Confirm Licensing
 Select Next : Disks >
-[zone](screenshots/zone.png) 
+![zone](screenshots/zone.png) 
