@@ -15,7 +15,10 @@ Welcome to the Azure Sentinel Honeypot Homelab walkthrough! In this guide, we wi
 This lab simulates failed login attacks using a honeypot VM in Azure...
 
 ![Failed login events](screenshots/event-id-4625.png)
+
 ![Failed login](screenshots/ua.png)
+
+![Failed](screenshots/nowwe.png)
 
 ## Lessons Learned
 - How to configure a honeypot VM and NSG to simulate attacks
