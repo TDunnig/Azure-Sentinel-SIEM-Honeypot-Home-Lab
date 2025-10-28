@@ -20,6 +20,8 @@ This lab simulates failed login attacks using a honeypot VM in Azure...
 
 ![Failed](screenshots/nowwe.png)
 
+![Failed logins](screenshots/qqqq.png)
+
 ## Lessons Learned
 - How to configure a honeypot VM and NSG to simulate attacks
 - How to ingest logs using AMA and DCR
