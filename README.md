@@ -42,7 +42,7 @@ Setting up and rolling out various Azure components including:
 - Network Security Groups
 - Powershell
 - Remote Desktop Protocol (RDP)
-- Third-party API: ipgeolocation.io
+- Third-party API: [ipgeolocation.io](https://app.ipgeolocation.io/login)
 - Customized Powershell Script authored by Josh Madakor
 
 # Overview:
