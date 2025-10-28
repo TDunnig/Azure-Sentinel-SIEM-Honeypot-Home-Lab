@@ -5,8 +5,25 @@
 
 Welcome to the Azure Sentinel Honeypot Homelab walkthrough! In this guide, we will explore how to set up and utilize a powerful and educational Homelab using Microsoft Azure Sentinel. Honeypots are decoy systems designed to attract and monitor malicious activity, providing valuable insights into potential threats and attackers' tactics. A SIEM (Security Information and Event Management) is a comprehensive security solution that helps organizations collect, analyze, and respond to security events in real-time. With Azure Sentinel, Microsoft's cloud-native SIEM (Security Information and Event Management) solution, we can gain a comprehensive view of security events and automate threat detection and response. Unleash the power of our homelab where cybersecurity meets innovation! Track and log attacks from around the globe and witness our mesmerizing attack map take shape. Discover the thrilling world of cyber warfare with us!
 
-# Learning Objectives
+## Table of Contents
+- [Architecture](docs/architecture.md)
+- [Detection Query](queries/failed-logons.kql)
+- [Screenshots](#screenshots)
+- [Lessons Learned](#lessons-learned)
 
+  ## Screenshots
+This lab simulates failed login attacks using a honeypot VM in Azure...
+
+![Failed login events](screenshots/event-id-4625.png)
+
+## Lessons Learned
+- How to configure a honeypot VM and NSG to simulate attacks
+- How to ingest logs using AMA and DCR
+- How to enrich data with GeoIP using `externaldata()`
+- How to visualize threats in Sentinel Workbooks
+
+
+# Learning Objectives
 Setting up and rolling out various Azure components including: 
 - Virtual Machines (VMs)
 - Log Analytics Workspaces
@@ -18,7 +35,6 @@ Setting up and rolling out various Azure components including:
 - Utilize Workbooks (World Map) to make an interactive map showing attack statistics
 
 # Technologies + Requirements
-
 - Microsoft Azure + Account
 - Azure Services: Sentinel
 - Log Analytics Workspace
@@ -32,21 +48,8 @@ Setting up and rolling out various Azure components including:
 # Overview:
 ![overview](screenshots/overview.png) 
 
-## Table of Contents
-- [Architecture](docs/architecture.md)
-- [Detection Query](queries/failed-logons.kql)
-- [Screenshots](#screenshots)
-- [Lessons Learned](#lessons-learned)
+Step 1: Create a Microsoft Azure Account: Azure
+Microsoft offers $200 in Azure credit for 30 days when you initially sign up
 
-## Screenshots
 
-This lab simulates failed login attacks using a honeypot VM in Azure...
 
-![Failed login events](screenshots/event-id-4625.png)
-
-## Lessons Learned
-
-- How to configure a honeypot VM and NSG to simulate attacks
-- How to ingest logs using AMA and DCR
-- How to enrich data with GeoIP using `externaldata()`
-- How to visualize threats in Sentinel Workbooks
