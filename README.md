@@ -18,12 +18,15 @@ Utilize Workbooks (World Map) to make an interactive map showing attack statisti
 
 # Technologies + Requirements
 
-Microsoft Azure + Account
-Azure Services: Sentinel, Log Analytics Workspace, Workbooks, Network Security Groups
-Powershell
-Remote Desktop Protocol (RDP)
-Third-party API: ipgeolocation.io
-Customized Powershell Script authored by Josh Madakor
+- Microsoft Azure + Account
+- Azure Services: Sentinel
+- Log Analytics Workspace
+-  Workbooks
+- Network Security Groups
+- Powershell
+- Remote Desktop Protocol (RDP)
+- Third-party API: ipgeolocation.io
+- Customized Powershell Script authored by Josh Madakor
 
 # Overview:
 
