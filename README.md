@@ -63,4 +63,30 @@ Microsoft offers $200 in Azure credit for 30 days when you initially sign up. No
 # Step 2: Setup our honey pot virtual machine
 Vulnerable Windows VM
 
+# Basics
+After signing up, click "Go to the Azure Portal" , or visit portal.azure.com
+In the search bar type "virtual machines"
+Under Create tab click on Azure virtual machine
+# Project Details
+Create a new resource group and give it a name (honeypot-lab) or whatever you want
+A resource group is a container that helps organize and manage related cloud resources. (The way Josh explained it on yt it is like a file that made sense to me so whatever works for you)
 
+# Instance Details
+Give your virtual machine a name (honeypot-vm) ( I changed mine had to redo it a few times)
+Choose a recommended region: ((US) East 2) (This is an important step I messed this up the 1st time around EVERYTHING has to be in the same zone you could choose West 3,North 2 whatever but once you choose a zone everything you create from this point on has to have the same zone or it will not work ask me how I know...-_-)
+
+Availability options: No infrastructure redundancy required
+Security type: Standard
+Image: Windows Server 2019 Datacenter - x64 Gen2 ( is what I used) (Josh used Windows 10 Pro, version 22H2 - x64 Gen2 which is not available at the point of me writing this, only the Windows 11 version of pro was an option and that was not working for me so I went with the server)
+
+VM Architecture: x64
+Size: Default is fine (Standard_D2s_v3 – 2vcpus, 8 GiB memory)
+# Administrator account
+Set up a username and password for the virtual machine.
+IMPORTANT: these identification details will be used to log into the virtual machine. (Make sure to keep them in mind and write down or store the user and pass you created)
+
+# Inbount port rules
+Public inbound ports -> Allow selected ports: RDP (3389)
+# Licensing
+Confirm Licensing
+Select Next : Disks >
